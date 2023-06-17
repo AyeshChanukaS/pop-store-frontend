@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>POP Store</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    body {
+      background-color: #343a40;
+      color: #fff;
+    }
+
+    .card {
+      background-color: #212529;
+      border: none;
+      margin-bottom: 20px;
+      color: #fff;
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      max-height: 200px;
+      object-fit: cover;
+    }
+
+    .card-body {
+      padding: 20px;
+    }
+
+    .card-title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .card-text {
+      margin-top: 10px;
+    }
+
+    .header {
+      background-color: #343a40;
+      padding: 20px;
+      color: #fff;
+    }
+
+    .header h1 {
+      margin: 0;
+    }
+
+    .header ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .header ul li {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .header ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    .footer {
+      background-color: #343a40;
+      padding: 20px;
+      color: #fff;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="text-center">POP Store</h1>
+    <ul class="text-center">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Products</a></li>
+      <li><a href="#">Categories</a></li>
+      <li><a href="#">About</a></li>
+    </ul>
+  </header>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/2kQAAOSwey5iiv-h/s-l500.jpg" alt="Product 1" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Wireless Over Ear Headphones</h5>
+            <p class="card-text">Price: $10</p>
+            <p class="card-text">ANKER Certified Refurbished. 2 Year Comprehensive Warranty Included,Provided by Allstate</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repeat the card markup for other products (2-10) -->
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/tMIAAOSwhotkbPqV/s-l1600.jpg" alt="Product 2" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Apple iPad Mini</h5>
+            <p class="card-text">Price: $299</p>
+            <p class="card-text">Apple iPad Mini 7.9 inch 5th Gen 256GB Space Gray Wi-Fi Only</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/K1YAAOSwx2Jin4LK/s-l500.png" alt="Product 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Canon EOS 3000D</h5>
+            <p class="card-text">Price: $250</p>
+            <p class="card-text">Canon EOS 3000D INT 18.0 MP Digital SLR Camera with 18-55mm EF-S f/3.5-5.6 Lens</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/qlAAAOSwshdkfiOQ/s-l640.jpg" alt="Product 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Lenovo ThinkVision</h5>
+            <p class="card-text">Price: $520</p>
+            <p class="card-text">Lenovo ThinkVision P27u-20 27" 4K UHD LED Monitor</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/jiQAAOSw6LVjNa7Q/s-l500.jpg" alt="Product 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Canon Printer </h5>
+            <p class="card-text">Price: $165</p>
+            <p class="card-text">Canon Printer (white) - Wireless Inkjet All-In-One Printer (TS3420) No ink</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/5dUAAOSwSwBkZzJY/s-l500.jpg" alt="Product 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Phomemo T02 Mini Printer</h5>
+            <p class="card-text">Price: $30</p>
+            <p class="card-text">Phomemo T02 Mini Printer Portable Printer Thermal Printing Sticker Wireless</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/7BUAAOSwgSZjw-S3/s-l640.jpg" alt="Product 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Gaming Keyboard and Mouse</h5>
+            <p class="card-text">Price: $15</p>
+            <p class="card-text">iMICE Gaming Keyboard and Mouse LED Colours Set</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="https://i.ebayimg.com/images/g/zmMAAOSwAftkbL85/s-l500.jpg" alt="Product 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Mini Black Tg Gaming Case</h5>
+            <p class="card-text">Price: $130</p>
+            <p class="card-text">Fractal Design Define 7 Mini Black Tg Gaming Case W/ Light Tint Glass Window Mic</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>&copy; 2023 POP Store. All rights reserved.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
